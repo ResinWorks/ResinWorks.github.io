@@ -1,0 +1,13 @@
+# サイトの基本設定
+title: たいとる
+description: いろいろ
+author: ResinWorks2
+
+# Jekyll設定
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
+
+# ビルド設定
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
